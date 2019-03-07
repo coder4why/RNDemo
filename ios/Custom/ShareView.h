@@ -1,0 +1,54 @@
+//
+//  ShareView.h
+//  haiyibao
+//
+//  Created by 曹雪莹 on 2016/11/26.
+//  Copyright © 2016年 韩元旭. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+typedef NS_ENUM(NSInteger, ShareType) {
+    ShareTypeWechatSession = 0,
+    ShareTypeWechatTimeLine,
+    ShareTypeQQ,
+    ShareTypeQZone,
+    ShareTypeSina
+};
+
+@interface ShareView : UIView
+
+//	点击按钮block回调
+@property (nonatomic,copy) void(^btnClick)(NSInteger);
+
+//	头部提示文字
+@property (nonatomic,copy) NSString *proStr;
+
+//	头部提示文字的字体大小
+@property (nonatomic,assign) NSInteger proFont;
+
+//	取消按钮的颜色
+@property (nonatomic,strong) UIColor *cancelBtnColor;
+
+//	取消按钮的字体大小
+@property (nonatomic,assign) NSInteger cancelBtnFont;
+
+//	除了取消按钮其他按钮的颜色
+@property (nonatomic,strong) UIColor *otherBtnColor;
+
+//	除了取消按钮其他按钮的字体大小
+@property (nonatomic,assign) NSInteger otherBtnFont;
+
+//	设置弹窗背景蒙板灰度(0~1)
+@property (nonatomic,assign) CGFloat duration;
+
+/**
+ *  初始化
+ *  @param proTitle   最顶部的标题  不需要的话传@""
+ *
+ *  @return ShareView
+ */
+
+- (instancetype)initWithShareProTitle:(NSString *)proTitle;
+
+@end

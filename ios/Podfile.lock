@@ -1,0 +1,57 @@
+PODS:
+  - AMapFoundation (1.5.4)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (6.1.1):
+    - AMapFoundation (~> 1.4)
+  - Masonry (1.1.0)
+  - MOBFoundation (3.1.8)
+  - pop (1.0.10)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (4.0.4):
+    - MOBFoundation
+
+DEPENDENCIES:
+  - AMapLocation
+  - AMapSearch
+  - Masonry
+  - MOBFoundation
+  - pop
+  - SDWebImage
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - Masonry
+    - MOBFoundation
+    - pop
+    - SDWebImage
+    - ShareSDK3
+
+SPEC CHECKSUMS:
+  AMapFoundation: bff8688722e886feda4edd77f1443746ddd7e2e2
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MOBFoundation: 7f1e157be332576e4d45809a03bc733292c6ad8d
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+
+PODFILE CHECKSUM: 53543299588d5a99a35dd77e6b663eb9f82be41e
+
+COCOAPODS: 1.5.3
