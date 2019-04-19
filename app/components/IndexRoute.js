@@ -23,7 +23,7 @@ export default routeIndex = {
             title:'首页详情',
             headerTintColor:'white',
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: '#333333',
             },
             headerRight:
                 <TouchableOpacity onPress={()=>{_clickHomeDetail()}}>
@@ -40,7 +40,7 @@ export default routeIndex = {
             title:'视频详情',
             headerTintColor:'white',
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: '#333333',
             },
         })
     },
@@ -51,7 +51,7 @@ export default routeIndex = {
             title:'电影详情',
             headerTintColor:'white',
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: '#333333',
             },
         })
     },
@@ -61,7 +61,7 @@ export default routeIndex = {
             title:'测试详情',
             headerTintColor:'white',
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: '#333333',
             },
 
         })
@@ -72,7 +72,7 @@ export default routeIndex = {
             title:'扫描二维码',
             headerTintColor:'white',
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: '#333333',
             },
 
         })

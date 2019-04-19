@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
       backgroundColor:'white',
   },
   color:{
-    backgroundColor:'red',
+    backgroundColor:'#333333',
   },
   noData:{
       height:actionTypes.SCREEN_HEIGHT-(actionTypes.SCREEN_HEIGHT>=812?(83+88):49+64),

@@ -273,7 +273,7 @@ export default class TestPage extends Component {
           {
               <ScrollView style={{flex:1}}>
                    <StatusBar
-                     backgroundColor="blue"
+                     backgroundColor="#333333"
                      barStyle="light-content"
                    />
                    <View style={{height: 40,margin:10,marginBottom:0,flexDirection:'row',alignItems:'center'}}>
@@ -294,7 +294,7 @@ export default class TestPage extends Component {
                          contents.map((item,index)=>{
                            return(
                              <TouchableWithoutFeedback key={index} onPress={actions[index]}>
-                                 <View style={{marginTop:10,width:355,height:45,backgroundColor:'#436EEE',borderRadius:5,alignItems:'center',justifyContent:'center'}}>
+                                 <View style={{marginTop:10,width:355,height:45,backgroundColor:'grey',borderRadius:5,alignItems:'center',justifyContent:'center'}}>
                                      <Text style={{height: 20,textAlign:'center',fontSize:17,color:'white'}}>{item}</Text>
                                  </View>
                              </TouchableWithoutFeedback>

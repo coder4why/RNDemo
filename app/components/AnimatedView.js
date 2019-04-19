@@ -44,7 +44,7 @@ export default class AnimatedView extends Component {
     return (
       <TouchableWithoutFeedback onPress={this._startAnimation}>
       <Animated.View style={[{transform: this.state.bigDogeTrans.getTranslateTransform()}]}>
-           <View style={{width:300,height:45,backgroundColor:'blue',alignItems:'center',justifyContent:'center',borderRadius:5,borderColor:'black',borderWidth:1}}>
+           <View style={{width:300,height:45,backgroundColor:'#333333',alignItems:'center',justifyContent:'center',borderRadius:5,borderColor:'black',borderWidth:1}}>
               <Text style={{flex:1,color:'white',textAlign:'center',fontSize:25,marginTop:8}}>确定</Text>
            </View>
        </Animated.View >

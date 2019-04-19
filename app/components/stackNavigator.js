@@ -100,21 +100,21 @@ const TabNavigatorConfigs = {
     swipeEnabled: false,
     backBehavior: "none",
     tabBarOptions:{
-      // activeTintColor:'#080808',
-      // inactiveTintColor:'white',
-      // activeBackgroundColor:'yellow',
-      // inactiveBackgroundColor:'blue',
+      activeTintColor:'#333333',
+      inactiveTintColor:'grey',
+      // activeBackgroundColor:'#333333',
+      // inactiveBackgroundColor:'#333333',
       showIcon:true,
-      style: {
-          // backgroundColor: '#EEE9E9',
-          // paddingBottom: 0,
-          // borderTopWidth: 0.5,
-          // borderTopColor: '#ccc',
-        },
+      // style: {
+      //     backgroundColor: '#EEE9E9',
+      //     paddingBottom: 0,
+      //     borderTopWidth: 0.5,
+      //     borderTopColor: '#ccc',
+      //   },
     },
 };
 const titles = ['首页','视频','电影','我的','测试'];
-const colors = ['#1C86EE','red','#3A5FCD','green','#1874CD']
+const colors = ['#333333','#333333','#333333','#333333','#333333']
 const APP = createBottomTabNavigator(TabRouteConfigs,TabNavigatorConfigs);
 const Navigator = createStackNavigator(
     {

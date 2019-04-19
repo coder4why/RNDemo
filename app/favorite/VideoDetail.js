@@ -89,7 +89,7 @@ export default class VideoDetailPage extends Component {
                         <Text style={{flex:1,color:'black',fontSize:15,marginTop:20,flexShrink: 1}} numberOflines={1}>{tail}</Text>
                         <Text style={{flex:1,color:'#A6A6A6',fontSize:12,marginTop:5,marginBottom:15,flexShrink: 1}} numberOflines={2} >{info}</Text>
                     </View>
-                    <View style={{marginLeft:5,width:55,height:22,backgroundColor:'red',borderRadius:12,alignItems:'center'}}>
+                    <View style={{marginLeft:5,width:55,height:22,backgroundColor:'#333333',borderRadius:12,alignItems:'center'}}>
                         <Text style={{color:'white',fontSize:13,textAlign:'center',marginTop:2,}}>进入></Text>
                     </View>
                 </View>

@@ -200,7 +200,7 @@ requestData(){
                                     <RefreshControl
                                       refreshing={this.state.isRefreshing}
                                       onRefresh={this.onRefresh.bind(this)}  //(()=>this.onRefresh)或者通过bind来绑定this引用来调用方法
-                                      tintColor='red'
+                                      tintColor='#333333'
                                       title= {this.state.isRefreshing? '刷新中....':'下拉刷新'}
                                     />
                                     }
