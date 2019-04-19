@@ -39,7 +39,7 @@
             导航与页面间跳转;
             其他；
 
-### App界面；
+### iOS App：
 <h2 align"center">
 <img src="/images/1.png" width="210" height="413"/>
 <img src="/images/2.png" width="210" height="413"/>
